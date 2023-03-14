@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.header,
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+.headerlinks {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+.headlinks {
+    margin-right: 10%;
+}
+.headlogo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 10%;
+    padding: 0;
+}
+.firstblock {
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+
+}
+.firstblock-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    padding-top: 30px;
+    padding-right: 20px;
+    margin-bottom: 10%;
+    max-width: 50%;
+    gap: 20px;
+}
+.firstblock-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-right: 10%;
+    align-items: center;
+}
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    max-width: 100px;
+  }
+.heading {
+    font-size: 48px;
+    font-weight: bolder;
+    word-wrap: break-word;
+
+
+}
+.heading2 {
+    font-size: 18px;
+    word-wrap: break-word;
+    max-width: 50%;
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.birdimage {
+    object-fit: cover;
+    width: 100%;
+    height: 70%;
+}
+.secondblock {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondhead {
+    font-size: 36px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.boxes img {
+    max-width: 60%;
+    margin-left: 10%;
+    outline: 2px solid blue;
+    border-radius: 10px;
+}
+.boxes {
+    display: flex;
+}
+.subtext {
+    margin-left: 20%;
+}
+.thirdblock {
+    background-color: #e5e7eb;
+    padding: 100px;
+    text-align: center;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+.fourthblock {
+    min-height: 300px;
+}
+
+.bluebackground {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 50%;
+    margin: 90px;
+    margin-left: 25%;
+}
+.leftbox {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.rightbox {
+    margin-left: 100px;
+}
+  
